@@ -5,8 +5,6 @@ public class BonusServiceTest {
     @Test
     void shouldCalculateForRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
-
-        34;&#x430;&#x43D;&#x43D;&#x44B;&#x435;:
         long amount = 1000;
         boolean registered = true;
         long expected = 30;
@@ -14,7 +12,7 @@ public class BonusServiceTest {
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
 
-        // производим проверку (сравниваем ожидаемый и фактический):
+        // производим проверку (сравниваем ожидаемый и фактический  результат):
         Assertions.assertEquals(expected, actual);
     }
 
